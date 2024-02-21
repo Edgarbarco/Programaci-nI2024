@@ -1,0 +1,28 @@
+1. ¿Qué es GIT? Es un sistema de control de versiones, es un sistema de programa que controla o administra las distintas versiones de un programa, git esta hecho por open source y es creado por el kernel de linux torvalds.
+
+2. ¿Cuáles son los comandos más importantes y para que sirven?
+git init: Sirve para crear un proyecto nuevo 
+git add: Sirve para pasar los archivos del working director y al area de git.
+git status: Es para ver en que estado estan los archivos si esta en working director y si estan en el stay in area etc.
+git commit: Sirve para pasarlo desde el stay in area al repositorio.
+git push: Sirve para subirlo a un repositorio remoto
+git pull: Se trabaja con multiples desarrolladores que hacen el cambio que han hecho los otros desarrolladores.
+git clone: Sirve hacer copia desde el servidor central donde esta el codigo a tu computador para poder empezar a trabajar.
+
+3. ¿Cuál es la diferencia entre Git y Github?
+Git: Es un sistema de control de versiones distribuido. Permite a los desarrolladores rastrear cambios en sus codigos fuente durante el desarrollo de software. Con git, se puede realizar seguimiento de los cambios, revertir a versiones anteriores, trabajar en diferentes ramas, y colaborar con otros desarrolladores de manera eficiente.
+
+GitHub: Es una plataforma de alojamiento de codigo en la nube basada en Git. GitHub proporciona una interfaz web y funcionalidades adicionales construidas alrededor del sistema de control de versiones Git. Permite a los desarrolladores alojar sus repositorios Git en linea y colaborar con otros desarrolladores en proyectos de codigo abierto o privados. Ademas de alojar repositorios, GitHub ofrece caracteristicas como seguimiento de problemas, gestion de proyectos, revision de codigo, integracion continua, y mucho mas.
+
+4. Enumere los comandos para subir cambios a un repositorio.
+   1. Agregar cambios al area de preparacion:
+	git add <archivo1> <archivo2> ... <archivoN>
+   2. Confirmar los cambios:
+	git commit -m "Mensaje descriptivo de los cambios"
+   3. Obtener los ultimos cambios del repositorio remoto:
+	git pull origin <rama>
+   4. Enviar los cambios al repositorio remoto:
+	git push origin <rama>
+
+5. ¿Qué es una branch  ?
+En Git es esencialmente una linea de desarrollo independiente que permite a los desarrolladores trabajar en caracteristicas, correcciones de errores o experimentos de manera aislada del codigo base principal. Cada repositorio Git puede tener multiples ramas, y estas ramas pueden divergir del codigo base principal (generalmente llamado "master" o "main") para incorporar cambios especificos.
